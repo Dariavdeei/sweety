@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Hairline";
+    src: url("../font/Hairline.ttf");
+}
+
+* {
+    font-family: Hairline, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.main-p {
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: bolder!important;
+    color: #000000;
+}
+
+section {
+    margin: 60px 0;
+}
+
+section > * {
+    padding: 10px 0;
+}
+
+h1, h3, .navbar-brand {
+    font-family: SansSerif, sans-serif;
+    color: #EEABB7;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
+
+.arrow-icon {
+    width: 60px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+footer {
+    padding: 25px 0;
+}
+
+.product-img {
+    object-fit: cover;
+    height: 300px;
+}
+
+.my-btn {
+    border: 1px solid #EEABB7;
+    color: #EEABB7;
+}
+
+
+.why-choose-us div:nth-child(1) {
+    background: url("../images/1-filled-256.png") no-repeat left;
+    background-size: 15%;
+}
+.why-choose-us div:nth-child(2) {
+    background: url("../images/2-filled-256.png") no-repeat left;
+    background-size: 15%;
+}
+.why-choose-us div:nth-child(3) {
+    background: url("../images/3-filled-256.png") no-repeat left;
+    background-size: 15%;
+}
+.why-choose-us p {
+    margin: 50px 50px;
+}
+
+.why-choose-us div {
+    margin-left: 1%;
+}
+
+.why-choose-us-bg {
+    background: #fff3fa;
+    padding: 50px 0;
+}
+
+.social-icon {
+    max-height: 30px;
+}
+
+.product-description > * {
+    padding: 15px 0;
+}
+
+#we-recommended-carousel .carousel-control-next { right: -125px; }
+#we-recommended-carousel .carousel-control-prev { left: -125px; }
+#popular-products-carousel .carousel-control-next { right: -50px; }
+#popular-products-carousel .carousel-control-prev { left: -85px; }
+
+.carousel-control-next-icon {
+    background-image: url("../icons/arrow-right.svg");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../icons/arrow-left.svg");
+}
